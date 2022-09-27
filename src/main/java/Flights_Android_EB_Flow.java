@@ -28,6 +28,7 @@ public class Flights_Android_EB_Flow {
 
 		System.out.println("Testing on Android Version 12, intiated Expedia App 22.37 in VD   ");
 
+		System.out.println("Testing on Android Version 12, intiated Expedia App 22.37 in VD   ");
 		DesiredCapabilities capabilities = new DesiredCapabilities();
     	capabilities.setCapability("platformName", "android");
 		capabilities.setCapability("appium:platformVersion", "12");
