@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test thread-count="3" name="Parallel Tests" parallel = "methods">
+        <classes>
+            <class name="Expedia_Web_EBF"/>
+            <class name="Flights_Android_EB_Flow"/>
+            <class name="Flights_iOS_EB_Flow"/>
+
+        </classes>
+    </test> <!-- Testng_maven_Sample -->
+</suite> <!-- Default Suite -->
