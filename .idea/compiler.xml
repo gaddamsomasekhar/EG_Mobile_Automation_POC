@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EG_Flights_Test_Automation" />
+        <module name="EG_Mobile_Automation_POC" />
       </profile>
     </annotationProcessing>
   </component>
