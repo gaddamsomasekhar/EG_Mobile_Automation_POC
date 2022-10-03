@@ -180,10 +180,10 @@ wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.expedia.book
 
 		driver.findElement(By.id("com.expedia.bookings:id/expando_rotation_icon")).click();
 
-		Thread.sleep(4000);
+
 
 		System.out.println("------- ##  Script execution completed for EBF Card work flow, Application Working As Expected   ## --------");
-
+		Thread.sleep(4000);
 
 		driver.terminateApp("com.expedia.bookings");
 	}

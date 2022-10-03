@@ -160,7 +160,7 @@ public class Flights_iOS_EB_Flow {
 
 		System.out.println(
 				"------- ##  Script execution completed for EBF Card work flow, Application Working As Expected   ## --------");
-
+		Thread.sleep(4000);
 
 		driver.terminateApp("com.expedia.booking.debug");
 

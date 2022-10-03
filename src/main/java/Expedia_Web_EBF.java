@@ -99,7 +99,7 @@ public class Expedia_Web_EBF {
 		driver.findElement(By.xpath("//span[normalize-space()='Check out']")).click();
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("//h1[contains(text(),'Secure booking - only takes a few minutes!')]")));
-
+		Thread.sleep(4000);
 
 		driver.close();
 	}
